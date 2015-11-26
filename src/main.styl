@@ -76,12 +76,17 @@ section
 
     &__title
         color #2c0011
-        margin-bottom 1em
     &__body
+        display flex
+        justify-content space-around
+        align-items center
+        flex-wrap wrap
+
         img
             display inline-block
             max-height 100px
             margin-left 2em
+            margin-top 1em
 
 
 .footer
@@ -90,6 +95,9 @@ section
     font-size .8em
     &__links
         margin-bottom .3em
+        display flex
+        justify-content flex-start
+        align-items center
         img, a
             display inline-block
 

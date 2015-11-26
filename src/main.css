@@ -82,12 +82,18 @@ section {
 }
 .servicios__title {
   color: #2c0011;
-  margin-bottom: 1em;
+}
+.servicios__body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .servicios__body img {
   display: inline-block;
   max-height: 100px;
   margin-left: 2em;
+  margin-top: 1em;
 }
 .footer {
   width: 95%;
@@ -96,6 +102,9 @@ section {
 }
 .footer__links {
   margin-bottom: 0.3em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .footer__links img,
 .footer__links a {
