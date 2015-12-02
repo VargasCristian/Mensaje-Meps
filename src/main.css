@@ -84,7 +84,6 @@ section {
 .servicios {
   margin-top: 1em;
   padding-bottom: 1em;
-  width: 100%;
   border-bottom: 4px solid #e5005b;
 }
 .servicios__title {
@@ -126,8 +125,11 @@ section {
   width: 95%;
   margin: 0 auto;
   font-size: 0.8em;
+  text-align: center;
 }
 .footer__links {
+  width: 100%;
+  max-width: 100%;
   margin-bottom: 0.3em;
   display: -webkit-box;
   display: -moz-box;
@@ -135,12 +137,12 @@ section {
   display: -ms-flexbox;
   display: box;
   display: flex;
-  -webkit-box-pack: start;
-  -moz-box-pack: start;
-  -o-box-pack: start;
-  -ms-flex-pack: start;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
   -webkit-box-align: center;
   -moz-box-align: center;
   -o-box-align: center;
