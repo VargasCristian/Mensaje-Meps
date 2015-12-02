@@ -150,10 +150,6 @@ section {
   -webkit-align-items: center;
   align-items: center;
 }
-.footer__links img,
-.footer__links a {
-  display: inline-block;
-}
 .footer__links img {
   max-width: 60px;
 }
