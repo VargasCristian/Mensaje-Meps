@@ -84,7 +84,6 @@ section {
 .servicios {
   margin-top: 1em;
   padding-bottom: 1em;
-  border-bottom: 4px solid #e5005b;
 }
 .servicios__title {
   color: #2c0011;
@@ -123,9 +122,11 @@ section {
 }
 .footer {
   width: 95%;
-  margin: 0 auto;
+  margin: 0.5em auto;
+  padding-top: 1em;
   font-size: 0.8em;
   text-align: center;
+  border-top: 4px solid #e5005b;
 }
 .footer__links {
   width: 100%;
